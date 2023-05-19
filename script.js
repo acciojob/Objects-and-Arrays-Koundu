@@ -7,6 +7,10 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
+const cap1 = {...person};
+const team1 = [...players];
+const team = Array.from(players);
+
 window.players = players;
 window.person = person;
 window.team = team;
