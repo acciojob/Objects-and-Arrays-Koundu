@@ -9,7 +9,7 @@ const person = {
 
 const cap1 = {...person};
 const team1 = [...players];
-const team = players["reference"]
+const team = [players]
 
 window.players = players;
 window.person = person;
